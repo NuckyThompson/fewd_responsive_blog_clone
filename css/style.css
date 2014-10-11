@@ -172,7 +172,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   background-image: url('../img/mars-background.jpg');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: percentage;
   background-attachment: fixed;
   margin: 0;
 }
@@ -204,6 +204,7 @@ body {
   font-size: .85em; 
   padding: 0;
   color: #ddd; 
+  margin-bottom: 0;
 }
 
 .icons li {
@@ -226,19 +227,19 @@ body {
 } karma social circle border */
 
 .icons i.fa-facebook {
-  color: #4c66a4;
+  color: white;
 }
 
 .icons i.fa-twitter {
-  color: #55acee;
+  color: white;
 }
 
 .icons i.fa-google-plus {
-  color: #3f729b;
+  color: white;
 }
 
 .icons i.fa-print {
-  color: #55acee;
+  color: white;
 }
 
 .icons li .fa-facebook:hover,
@@ -343,12 +344,12 @@ body {
 }
 
 .content-header i.fa-angle-right {
-  right: 0;
+  right: .5em;
 }
 
 .content-header i.fa-angle-left {
   display: inline-block;
-  left: 0;
+  left: .5em;
 }
 
 .content-header i.fa-angle-left:hover,
