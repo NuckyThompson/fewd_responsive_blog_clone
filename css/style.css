@@ -194,8 +194,6 @@ body {
   color: white;
   font-family: Georgia;
   font-size: 2em;
-  &:before {
-    content: "\e010";
   }
 }
 
