@@ -183,13 +183,13 @@ body {
   height: 3em;
   width: 100%;
   text-transform: uppercase;
+
 }
 
 .top-bar .logo {
+  float: left;
   margin: 0.25em;
   display: inline-block;
-  color: white;
-  font-family: Georgia;
   font-size: 2em;
 }
 
